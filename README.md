@@ -2,7 +2,7 @@
 Jogo de resgate, da aula "Construindo o seu primeiro jogo de naves", da DIO
 
 Como jogar:
-Seta para cima e para baixo, movimenta o helicóptero
+Setas para cima,  baixo, direita e equerda movimenta o helicóptero
 barra de espaço, dispara contra o inimigo
 
 Resgate seus amigos e destrua os inimigos.

@@ -70,7 +70,7 @@ background-image:url(../imgs/apache.png);
 
 #inicio {
 	width:350px;
-	height:200px;
+	height:400px;
 	background-color:#FFF;
  	margin-left:auto;
         margin-right:auto;
@@ -262,4 +262,11 @@ h3 {
 	text-align:center;
 	padding:10px;
 
+}
+
+#btnIniciar{
+	background-color: #603a6033;
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
 }

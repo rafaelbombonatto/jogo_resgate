@@ -10,10 +10,16 @@
 <body>
     <div id="container">
         <div id="fundoGame">
-            <div id="inicio" onclick="start()")>
-                <h1>Resgate</h1>
-                <p>Utilize as Setas para cima e para baixo para movimentar o helicoptero a barra de espaço para atirar</p>
-                <p>Clique aqui para iniciar !!</p>
+            <div id="inicio")>                
+                <h1>O Resgate</h1>                                
+                <h3>Comandos</h3>
+                <p><i class="fa fa-arrow-up"></i>: Movimenta o helicóptero para cima</p>
+                <p><i class="fa fa-arrow-down"></i>: Movimenta o helicóptero para baixo</p>
+                <p><i class="fa fa-arrow-left"></i>: Movimenta o helicóptero para esquerda</p>
+                <p><i class="fa fa-arrow-right"></i>: Movimenta o helicóptero para direita</p>                
+                <p><b>Barra de espaço</b>: Dispara contra o inimigo</p>                
+                <br>
+                <button id="btnIniciar" onclick="start()">Iniciar</button>
             </div>
         </div>
     </div>
@@ -25,6 +31,7 @@
     <audio src="assets/sons/perdido.mp3" preload="auto" id="somPerdido"></audio>	
     <audio src="assets/sons/resgate.mp3" preload="auto" id="somResgate"></audio>
 
+    <script src="https://kit.fontawesome.com/e66174f2fd.js" crossorigin="anonymous"></script>
     <script src="assets/scripts/jquery-1.11.1.min.js"></script>
     <script src="assets/scripts/jquery-collision.min.js"></script>
     <script src="assets/scripts/script.js"></script>

@@ -21,6 +21,8 @@ function start() { // Inicio da função start()
     var TECLA = {
         UP: 38,
         DOWN: 40,
+        LEFT: 37,
+        RIGHT: 39,
         FIRE: 32
         }
     var velocidade=5;
@@ -97,6 +99,29 @@ function start() { // Inicio da função start()
                     
             }
         }
+
+        if (jogo.pressionou[TECLA.LEFT]) {
+            
+            var left = parseInt($("#jogador").css("left"));
+            $("#jogador").css("left",left-10);
+            
+            if (left<=0) {	
+                $("#jogador").css("left",0);
+                    
+            }
+        }
+
+        if (jogo.pressionou[TECLA.RIGHT]) {
+            
+            var left = parseInt($("#jogador").css("left"));
+            $("#jogador").css("left",left+10);
+            
+            if (left>=694) {	
+                $("#jogador").css("left",left-10);
+                    
+            }
+        }
+
         
         if (jogo.pressionou[TECLA.FIRE]) {
             
